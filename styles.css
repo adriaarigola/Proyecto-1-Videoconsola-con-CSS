@@ -19,3 +19,33 @@ section {
     display: flex;
     flex-direction: column;
 }
+
+.contenedor1 {
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pantalla {
+    width: 370px;
+    height: 320px;
+    margin-top: 20px;
+    border-radius: 15px 15px 20px 20px;
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+#nombreconsola {
+    font-size: 25px;
+    color: lightgrey;
+    padding: 0%;
+}
