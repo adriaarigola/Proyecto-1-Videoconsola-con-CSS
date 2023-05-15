@@ -1,0 +1,21 @@
+body {
+    background-image: url(./images/mariobrosfondo.jpeg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: royalblue
+}
+
+section {
+    width: 400px;
+    height: 700px;
+    border-radius: 5%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+}
