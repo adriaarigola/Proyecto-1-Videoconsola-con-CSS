@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -47,5 +48,91 @@ section {
 #nombreconsola {
     font-size: 25px;
     color: lightgrey;
-    padding: 0%;
+}
+
+
+
+
+.joystickvert {
+    position: relative;
+    top: 70px;
+    left: 100px;
+    width: 30px;
+    height: 90px;
+    background-color: gray;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.joystickhori {
+    position: relative;
+    top: 40px;
+    left: 35px;
+    width: 90px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+
+.botonB {
+    position: relative;
+    top: 0px;
+    left: 220px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color: rgb(130, 144, 159);
+    background-color: gray;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.botonA {
+    position: relative;
+    top: -25px;
+    left: 320px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color: rgb(130, 144, 159);
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.opcionselect {
+    display: inline-block;
+    height: 15px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.espacioentreopcion {
+    display: inline-block;
+    width: 20px;
+    background-color: royalblue;
+    order: 1;
+}
+
+.opcionstart {
+    display: inline-block;
+    height: 15px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 10px;
+    order: 2;
 }
